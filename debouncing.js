@@ -1,3 +1,9 @@
+/*
+  Author: Sashank Pindiproli 
+  Name: debouncing.js
+  Purpose: This file is used to get the results of the news api using debounce feature    
+*/
+
 let counter = 0;
 
 const fetchNews = () => {

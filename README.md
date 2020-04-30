@@ -1,2 +1,3 @@
 # sashycashy.github.io
-Debounce Website
+
+This repo contains a simple website that uses debounce feature

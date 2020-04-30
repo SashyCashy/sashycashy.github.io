@@ -5,7 +5,7 @@ const fetchNews = () => {
   let parent = document.getElementById('news-container');
   parent.innerHTML = '';
   fetch(
-    `http://newsapi.org/v2/everything?q=${keyword}&from=2020-03-30&sortBy=publishedAt&apiKey=d0de553ab1e54b409519e274d12ded76`
+    `https://newsapi.org/v2/everything?q=${keyword}&from=2020-03-30&sortBy=publishedAt&apiKey=d0de553ab1e54b409519e274d12ded76`
   )
     .then((response) => response.json())
     .then((data) => {

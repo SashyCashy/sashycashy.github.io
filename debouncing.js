@@ -13,7 +13,7 @@ const fetchNews = () => {
       if (data.status === 'error') {
         document.getElementById('counter').innerHTML = 0;
       } else {
-        document.getElementById('counter').innerHTML = data.totalResults;
+        document.getElementById('counter').innerHTML = data.articles.length;
 
         for (let record of data.articles) {
           let child = document.createElement('div');

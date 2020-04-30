@@ -15,7 +15,6 @@ const fetchNews = () => {
   )
     .then((response) => response.json())
     .then((data) => {
-      console.log('Here', data);
       if (data.status === 'error') {
         document.getElementById('counter').innerHTML = 0;
       } else {

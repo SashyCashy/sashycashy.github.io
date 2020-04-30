@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="styles.css">
+            <title> Debouncing Demo </title>
+           <body>
+               <h1> Debouncing Demo</h1>
+               <p> No matter how many times you write something inside the input field the debounce function is getting called exactly once every 'delay' number of seconds.</p>
+               <div id="counter">0</div>
+               <input type="text" id="newsText"  onkeyup="debounceProductSearchCall(event)">
+               <div id="news-container">
+                  
+                    <!-- Placeholder logic for the cards in this container-->
+               </div>
+           <script src="debouncing.js"></script>
+            </body>
+        </head>
+    </html>
+</html>
